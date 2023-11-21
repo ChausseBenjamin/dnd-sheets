@@ -1,6 +1,5 @@
 dungeonsheets_version = "0.18.0"
 
-
 xp = 0
 level = 1
 hp_max = 10
@@ -44,8 +43,8 @@ skill_proficiencies = [
 ]
 
 # Proficiencies and languages
-languages = """Common, Infernal\n\n\n
-Tool proficiencies: Disguise kit\n"""
+languages = """Common, Infernal"""
+proficiencies_text = ("Disguise kit")
 # TODO: Add extra languages from faceless background
 
 # Inventory
@@ -60,7 +59,7 @@ weapons = ()
 magic_items = ()
 
 # TODO: Add equipment from faceless background
-equipment = ()
+equipment = (""" """)
 
 
 spells = (
