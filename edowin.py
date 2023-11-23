@@ -53,10 +53,14 @@ proficiencies_text = ("Dice set", "Thieves' tools")
 cp = 15  # Copper Pieces (+15 from Criminal background)
 sp = 0  # Silver Pieces
 ep = 0  # Electrum Pieces
-gp = 0  # Gold Pieces
-pp = 0  # Platinum Pieces
+gp = 2  # Gold Pieces
+pp = 2  # Platinum Pieces
 
-weapons = ()
+weapons = (
+    "light crossbow",
+    "dagger",
+    "dagger",
+)
 
 magic_items = ()
 
@@ -66,6 +70,28 @@ equipment = (
     - Crowbar\n
     - a set of dark common clothes including a hood\n
     - a belt pouch\n
+    """
+    # From warlock's dungeoneer pack:
+    """
+    - backpack\n
+    - crowbar\n
+    - hammer\n
+    - 10 pitons\n
+    - 10 torches\n
+    - tinderbox\n
+    - 10 days of rations\n
+    - waterskin\n
+    - 50 feet of hempen rope\n
+    """
+    # From Warlock in general + Starting Gold:
+    """
+    - Leather armor\n
+    - Orb (arcane focus)\n
+    - Alchemist's fire\n
+    - Steel mirror\n
+    - 2 Person tent\n
+    - Grappling hook\n
+    - Bullseye lantern\n
     """
     # From the curse Campaign:
     """
